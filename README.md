@@ -71,7 +71,7 @@ inventory-manager/
 
 ---
 
-👉 **GitHub Repo:** [Inventory Manager](https://github.com/atulkamble/Inventory-Manager)
+👉 **GitHub Repo:** [Inventory Manager](https://github.com/NakulsharmaGH/Inventory-Manager.git)
 
 ---
 
