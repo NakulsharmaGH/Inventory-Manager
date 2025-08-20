@@ -92,7 +92,7 @@ inventory-manager/
 
 ### Clone Repo
 ```
-git clone https://github.com/atulkamble/Inventory-Manager.git
+git clone https://github.com/NakulsharmaGH/Inventory-Manager.git
 cd Inventory-Manager
 ```
 ---
@@ -118,11 +118,11 @@ ssh -i "key.pem" ec2-user@ec2-18-206-204-23.compute-1.amazonaws.com
 sudo dnf update 
 sudo dnf install python tree git docker -y
 
-git config --global user.name "Atul Kamble"
-git config --global user.email "atul_kamble@hotmail.com"
+git config --global user.name "Nakul Sharma"
+git config --global user.email "nakusharma03@gmail.com"
 git config --list
 
-
+git remote add origin https://github.com/NakulsharmaGH/Inventory-Manager.git 
 
 sudo systemctl start docker 
 sudo systemctl enable docker 
@@ -357,10 +357,10 @@ CMD ["python", "main.py"]
 
 ```bash
 cd /home/ec2-user/Inventory-Manager/01-dev
-sudo docker build -t atuljkamble/inventory-dev .
+sudo docker build -t nakuldocker03/inventory-manager .
 sudo docker images
-sudo docker push atuljkamble/inventory-dev
-sudo docker run -d -p 5000:5000 atuljkamble/inventory-dev
+sudo docker push nakuldocker03/inventory-manager
+sudo docker run -d -p 5000:5000 nakuldocker03/inventory-manager
 sudo docker container ls
 sudo docker container stop 62bcca5a4efe
 ```
